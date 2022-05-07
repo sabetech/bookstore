@@ -1,14 +1,11 @@
-import React from "react";
+import React from 'react';
 
 function Categories() {
-    
-
-    return (
-        <>
-            <button>Check Status</button>
-        </>
-    );
-
+  return (
+    <>
+      <button type="button">Check Status</button>
+    </>
+  );
 }
 
 export default Categories;
