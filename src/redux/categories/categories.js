@@ -1,17 +1,15 @@
 const CHECK_STATUS = 'reducer/categories/check_status';
 
 // Reducer
-const initialState = [];
+const initialState = { status: '' };
 export default function reducer(state = initialState, action = {}) {
   switch (action.type) {
     // do reducer stuff
     case CHECK_STATUS:
-      return [
+      return {
         ...state,
-        {
-          status: 'Under construction',
-        },
-      ];
+        status: 'Under construction',
+      };
     default: return state;
   }
 }

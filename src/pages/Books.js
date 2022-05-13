@@ -1,20 +1,10 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import BookList from '../components/BookList';
 import InputBook from '../components/InputBook';
 
 function Books() {
-  const books = [
-    {
-      id: 1,
-      title: 'Brownian Motion',
-      author: 'Suzanne Bleni',
-    },
-    {
-      id: 2,
-      title: 'Fluid Simulation',
-      author: 'Deflauti Vue',
-    },
-  ];
+  const books = useSelector((state) => state.books);
 
   return (
     <div>
