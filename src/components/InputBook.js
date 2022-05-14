@@ -17,6 +17,8 @@ const InputBook = () => {
     };
 
     dispatch(addBookApi(myBook));
+    setTitle('');
+    setAuthor('');
   };
 
   return (
