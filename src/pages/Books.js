@@ -15,6 +15,8 @@ function Books() {
   return (
     <div>
       <BookList books={books} />
+      <hr className="hrclass" />
+      <h3 className="add-new-book">ADD NEW BOOK</h3>
       <InputBook />
     </div>
   );

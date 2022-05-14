@@ -15,9 +15,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -30,33 +28,38 @@ body {
   width: 100%;
   margin-bottom: 20px;
   display: flex;
-  border-radius: calc(0.5 * 100px);
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
   justify-content: space-between;
 }
 
 .input-text {
   font-size: 1rem;
   font-weight: 400;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
   width: 50%;
-  padding-right: 5px;
-  padding-left: 10px;
-  border-radius: calc(0.5 * 100px);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 1rem;
+  padding: 10px;
+}
+
+.author-input-text {
+  width: 30%;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 0;
 }
 
 .input-text::placeholder {
-  color: #000;
+  color: rgb(136, 135, 135);
 }
 
 .input-submit {
-  background: transparent;
-  color: #5b5b5b;
-  text-transform: capitalize;
+  background: #0290FF;
   cursor: pointer;
   font-weight: 600;
   margin-right: 10px;
+  padding: 10px 25px 10px 25px;
+  color: white;
 }
 
 .input-text,
@@ -68,7 +71,16 @@ body {
 
 .nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  height: 100px;
+  box-shadow: 1px 3px 0px 0px rgba(207,207,207,1);
+  align-items: center;
+  /* border: 2px outset #606060; */
+}
+
+.main-header {
+  color: #0290FF;
+  font-size: 32px;
 }
 
 .nav-links {
@@ -80,4 +92,20 @@ body {
 .nav-link-item {
   margin-left: 20px;
   margin-right: 20px;
+  text-decoration: none;
+  color:black
+}
+
+.add-new-book {
+  color: #898989;
+  font-size: 24px;
+}
+
+.hrclass {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.book-card {
+
 }

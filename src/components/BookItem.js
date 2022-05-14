@@ -12,11 +12,28 @@ const BookItem = ({ id, title, author }) => {
 
   return (
     <li className={styles.item}>
-      <div>
-        { title }
-        -
-        { author }
-        <button type="button" onClick={(e) => handleDelete(e, id)}>Delete</button>
+      <div className={styles.bookInfo}>
+        <div className={styles.bookTitle}>
+          { title }
+        </div>
+        <div className={styles.bookAuthor}>
+          { author }
+        </div>
+        <ul className={styles.actionLinks}>
+          <li>
+            <button type="button">Comments</button>
+            {' '}
+            |
+          </li>
+          <li className={styles.actionLinkItem}>
+            <button type="button" onClick={(e) => handleDelete(e, id)}>Remove</button>
+            {' '}
+            |
+          </li>
+          <li className={styles.actionLinkItem}>
+            <button type="button">Edit</button>
+          </li>
+        </ul>
       </div>
     </li>
   );
