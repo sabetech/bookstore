@@ -54,3 +54,29 @@ export const fetchBooksApi = () => async (dispatch) => {
     console.log(e);
   }
 };
+
+export const addBookApi = (payload) => async (dispatch) => {
+  const { id, title, author } = payload;
+  await fetch(`${baseUrl}/books`, {
+    method: 'POST',
+    body: JSON.stringify({
+      item_id: id,
+      title,
+      author,
+      category: 'Fiction',
+    }),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+  dispatch(addBook(payload));
+};
+
+export const removeBookApi = (id) => async (dispatch) => {
+  await fetch(`${baseUrl}/books/${id}`,
+    {
+      method: 'DELETE',
+    });
+
+  dispatch(removeBook(id));
+};
