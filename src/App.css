@@ -16,12 +16,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  margin: 2% 10% 0 10%;
 }
 
 .inner {
   width: 100%;
-  padding: 8rem 10px 4rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .form-container {
@@ -60,6 +61,7 @@ body {
   margin-right: 10px;
   padding: 10px 25px 10px 25px;
   color: white;
+  border-radius: 5px;
 }
 
 .input-text,
@@ -73,14 +75,15 @@ body {
   display: flex;
   justify-content: flex-start;
   height: 100px;
-  box-shadow: 1px 3px 0px 0px rgba(207,207,207,1);
+  
   align-items: center;
-  /* border: 2px outset #606060; */
+  border-bottom: 1px rgb(217, 217, 217) solid;
 }
 
 .main-header {
   color: #0290FF;
   font-size: 32px;
+  margin-left: 11%;
 }
 
 .nav-links {
@@ -99,13 +102,11 @@ body {
 .add-new-book {
   color: #898989;
   font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .hrclass {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.book-card {
-
+  border: 1px rgb(235, 235, 235) solid;
 }
