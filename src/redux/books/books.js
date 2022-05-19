@@ -51,7 +51,7 @@ export const fetchBooksApi = () => async (dispatch) => {
 
     dispatch(fetchBooks(bookObjects));
   } catch (e) {
-    console.log(e);
+    throw new Error(e.message());
   }
 };
 

@@ -1,29 +1,109 @@
 .item {
-  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
   list-style-type: none;
   padding: 17px 0;
-  border-bottom: 1px solid #eaeaea;
+  border: 1px solid #eaeaea;
+  height: 150px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.bookTitle {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.bookAuthor {
+  color: rgb(160, 160, 255);
+}
+
+.actionLinks {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 30%;
 }
 
 .checkbox {
   margin-right: 15px;
 }
 
-.item button {
-  font-size: 13px;
-  background: #f1f3f4;
-  border: none;
+.item .buttonLink {
+  border-width: 0 1px 0 0;
+  border-color: #fff9f9;
+  padding-right: 15px;
+  padding-left: 15px;
   cursor: pointer;
-  float: right;
-  outline: none;
-  border-radius: 100px;
-  height: 50px;
-  width: 50px;
-  margin: -10px 0 0 10px;
+  color: rgb(160, 160, 255);
+  background-color: white;
+}
+
+.comments {
+  border-width: 0 1px 0 0;
+  border-color: #fff9f9;
+  padding-right: 15px;
+  cursor: pointer;
+  color: rgb(160, 160, 255);
+  background-color: white;
 }
 
 .textInput {
   width: 100%;
   padding: 10px;
   border: 1px solid #dfdfdf;
+}
+
+.genre {
+  color: grey;
+}
+
+.progressInfo {
+  display: flex;
+}
+
+.progressPercent {
+  font-size: 24px;
+}
+
+.progressSubInfo {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.chapterInfo {
+  display: flex;
+  margin-right: 15px;
+}
+
+.chapterSubInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonProgress {
+  background-color: #0290ff !important;
+  color: white !important;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+
+.vl {
+  border-left: 1px solid rgb(216, 216, 216);
+  height: 80%;
+}
+
+.currentChapter {
+  color: rgb(216, 216, 216);
+  margin-bottom: 8px;
 }

@@ -17,11 +17,11 @@ const NavBar = () => {
 
   return (
     <nav className="nav-bar">
-      <h1 className="main-header">Book Store</h1>
+      <h1 className="main-header">Bookstore CMS</h1>
       <ul className="nav-links">
         {links.map((link) => (
-          <li key={link.id} className="nav-link-item">
-            <Link to={link.path}>{link.text}</Link>
+          <li key={link.id} className="book-card">
+            <Link to={link.path} className="nav-link-item">{link.text}</Link>
           </li>
         ))}
       </ul>
