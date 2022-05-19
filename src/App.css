@@ -55,7 +55,7 @@ body {
 }
 
 .input-submit {
-  background: #0290FF;
+  background: #0290ff;
   cursor: pointer;
   font-weight: 600;
   margin-right: 10px;
@@ -75,13 +75,12 @@ body {
   display: flex;
   justify-content: flex-start;
   height: 100px;
-  
   align-items: center;
   border-bottom: 1px rgb(217, 217, 217) solid;
 }
 
 .main-header {
-  color: #0290FF;
+  color: #0290ff;
   font-size: 32px;
   margin-left: 11%;
 }
@@ -96,7 +95,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none;
-  color:black
+  color: black;
 }
 
 .add-new-book {

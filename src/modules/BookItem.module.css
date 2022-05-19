@@ -52,7 +52,7 @@
   padding-right: 15px;
   cursor: pointer;
   color: rgb(160, 160, 255);
-  background-color: white; 
+  background-color: white;
 }
 
 .textInput {
@@ -66,7 +66,7 @@
 }
 
 .progressInfo {
-  display:flex;
+  display: flex;
 }
 
 .progressPercent {
@@ -90,7 +90,7 @@
 }
 
 .buttonProgress {
-  background-color: #0290FF !important; 
+  background-color: #0290ff !important;
   color: white !important;
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
@@ -104,6 +104,6 @@
 }
 
 .currentChapter {
-  color:rgb(216, 216, 216);
+  color: rgb(216, 216, 216);
   margin-bottom: 8px;
 }
