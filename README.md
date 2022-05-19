@@ -9,6 +9,7 @@
 - HTML/CSS/JS
 - ES6 modules
 - React
+- Redux
 - Webpack
 - Babel
 - Linters (stylehint, eslint)
