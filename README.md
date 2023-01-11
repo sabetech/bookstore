@@ -37,6 +37,10 @@
 
 - Run the project with npm start to run the production ready files
 
+## Screenshot
+![Screenshot 2023-01-11 at 3 31 04 PM](https://user-images.githubusercontent.com/4713955/211848710-cf1a3b52-1cf5-4cb6-a180-ecbce7c927d4.png)
+
+
 ## Authors
 
 👤 **Albert Mensah-Ansah**
